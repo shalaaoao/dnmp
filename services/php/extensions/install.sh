@@ -589,7 +589,7 @@ fi
 
 if [[ -z "${EXTENSIONS##*,mongodb,*}" ]]; then
     echo "---------- Install mongodb ----------"
-    installExtensionFromTgz mongodb-1.7.4
+    installExtensionFromTgz mongodb-1.14.1
 fi
 
 if [[ -z "${EXTENSIONS##*,yaf,*}" ]]; then
